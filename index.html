@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3422711409.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <menu>
+        <div class="logo">
+            <img src="logo1.png" width="100" alt="logo">
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#order">Contact Us</a></li>
+    </menu>
+    <section id="home">
+        <div class="heroimg">
+            <h1 id="middle">
+                Welcome to  Blue Heaven Restaurant</h1>
+        </div>
+    </section>
+    <section id="menu">
+        <h1 id="heading2">Menu of the Day</h1>
+        <div class="card-container">
+          <div class="card">
+                <img src="noodles.avif" alt="Noodles">
+                <h2>Noodles</h2>
+                <p>&#8377;200</p>
+            </div>
+            <div class="card">
+                <img src="tea.png" alt="tea" height="200" style="margin-top: 55px;">
+                <h2>Special Tea</h2>
+                <p>&#8377;10</p>
+            </div>
+            <div class="card">
+                <img src="burger.png" alt="Burger">
+                <h2>Burger</h2>
+                <p>&#8377;250</p>
+            </div>
+            <div class="card">
+                <img src="choleBatura.jpg" alt="Chole Batura">
+                <h2>Chole Batura</h2>
+                <p>&#8377;270</p>
+            </div>
+            <div class="card">
+                <img src="momos.jpg" height="300" alt="Momos">
+                <h2>Momos</h2>
+                <p>&#8377;90</p>
+            </div>
+            <div class="card">
+                <img src="friench-fries" height="300" width="400" alt="Indian Thali">
+                <h2>friench-fries</h2>
+                <p>&#8377;300</p>
+            </div>
+            <div class="card">
+                <img src="milk-badam.jpg" height="300" width="400" alt="Pahadi Thali">
+                <h2>milk-badam</h2>
+                <p>&#8377;220</p>
+            </div>
+            <div class="card">
+                <img src="vegetable_kathi_roll.jpg" height="300" width="400" alt="Pahadi Thali">
+                <h2>Patty Veg Roll</h2>
+                <p>&#8377;200</p>
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <h1 style="text-align: center; font-size: 2rem; margin: 20px;">About US</h1>
+       <div style="padding: 10px 60px;">
+        <p id="About-container">
+            Welcome to Blue Heaven Restaurant, your culinary escape in the breathtaking landscapes of Uttarakhand! Perched in a serene location with panoramic views of the Himalayas, Blue Heaven is more than just a place to dine; it’s a journey into the rich culinary traditions and scenic beauty that make Uttarakhand so special. Our restaurant is a warm, welcoming haven for travelers and locals alike, where every meal is crafted with passion and attention to detail.
+
+At Blue Heaven, we believe that the best dishes start with the freshest ingredients. Our talented chefs work closely with local farmers and suppliers to bring you the finest seasonal produce, spices, and herbs that capture the flavors of the region. We pride ourselves on offering an array of dishes that celebrate the culinary diversity of Uttarakhand, including traditional Pahadi recipes that have been passed down through generations. For those looking to explore beyond local flavors, our menu also features a selection of global dishes, all thoughtfully prepared with a fusion of modern and traditional cooking techniques.
+
+Our ambiance is designed to enhance your dining experience, with a rustic yet elegant decor that reflects the charm of the surrounding natural beauty. Whether you're joining us for a family gathering, a romantic dinner, or a peaceful meal after a day of exploring, Blue Heaven offers a dining experience that’s both relaxing and invigorating. Our dedicated team is committed to making you feel at home, offering personalized service that’s as warm as our Uttarakhandian roots.
+
+Come savor the taste of Uttarakhand at Blue Heaven Restaurant—where every dish tells a story, every view captivates, and every moment is designed to be memorable. Join us for a culinary journey that reflects the soul of the mountains, blending nature’s tranquility with flavors that linger long after you’ve left.
+        </p>
+       </div>
+    </section>
+    <section id="order">
+        <div class="contact-box">
+            <h2>Feedback Form</h2>
+            <fieldset>
+                <form action="#">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required class="form">
+                    </div><br>
+                    <div>
+                        <label for="Phone">Phone Number:</label>
+                        <input type="tel" name="Phone" required class="form" >
+                    </div><br>
+                    <div>
+                        <label for="Address">Feedback:</label><br>
+                        <textarea name="Address" id="Address" cols="60" rows="10" required ></textarea>
+                    </div><br>
+                    <label for="Rank">Rate</label>
+                   <select>
+                    <option value="Rank">Outstanding</option>
+                    <option value="Rank">Good</option>
+                    <option value="Rank">Satisfied</option>
+                    <option value="Rank">Not Satisfied</option>
+                    <option value="Rank">Very Poor</option>
+                     </select>
+                    <br>
+                    <input class="btn" type="submit" value="submit Now">
+                </form>
+        </div><br>
+    </section>
+    </fieldset>
+</body>
+
+</html>
